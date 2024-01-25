@@ -4,14 +4,14 @@
 
 ### maket pour destop
 
-<img url="./assets/images/variable a utilisés.svg" alt="design desktop">
+<img src="./assets/images/variable a utilisés.svg" alt="design desktop">
 
-<img url="./assets/images/low fidelity design.svg" alt="design deskt
+<img src="./assets/images/low fidelity design.svg" alt="design deskt
 
 ### maket pour telephone
 
-<img url="./assets/images/design.svg" alt="design desktop">
+<img src="./assets/images/design.svg" alt="design desktop">
 
-<img url="./assets/images/low fidelity design for phone.svg" alt="phone">
+<img src="./assets/images/low fidelity design for phone.svg" alt="phone">
 
-<img url="./assets/images/result for phone.svg" alt="phone 2">
+<img src="./assets/images/result for phone.svg" alt="phone 2">
