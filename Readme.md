@@ -6,7 +6,7 @@
 
 <img src="./assets/images/variable a utilisés.svg" alt="design desktop">
 
-<img src="./assets/images/low fidelity design.svg" alt="design deskt
+<img src="./assets/images/low fidelity design.svg" alt="design desktop">
 
 ### maket pour telephone
 
