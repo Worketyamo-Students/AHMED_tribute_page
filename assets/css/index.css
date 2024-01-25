@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;200;300;400;500;600;700&family=Jacques+Francois+Shadow&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --font-size-default: 10px;
+    --font-jacques: 'Jacques Francois Shadow', serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-ibm: 'IBM Plex Serif', serif;
+    --primary-color: #DCF2F1;
+    --secondary-color: #7FC7D9;
+    --ternery-color: #365486;
+    --color-four: #0F1035;
+    --bg-color: rgba(220, 242, 241, .8);
+}
+
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: var(--font-size-default);
+}
+
+body {
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
