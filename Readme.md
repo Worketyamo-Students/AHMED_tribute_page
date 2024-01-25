@@ -8,9 +8,9 @@
 
 <img src="./assets/images/low fidelity design.svg" alt="design desktop">
 
-### maket pour telephone
-
 <img src="./assets/images/design.svg" alt="design desktop">
+
+### maket pour telephone
 
 <img src="./assets/images/low fidelity design for phone.svg" alt="phone">
 
