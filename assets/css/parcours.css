@@ -24,6 +24,7 @@ body{
     width: 100vw;
     color: white;
     font-size: 10px;
+    background-color: var(--primary-color);
 }
 nav{
     display: flex;
@@ -59,23 +60,28 @@ nav{
     display: flex;
     height: 70%;
     width: 100%;
-    background-color:red;
+    /* background-color:red; */
 }
 .image{
     flex: 1;
-    height:99% ;
-    /* width: 60rem; */
-    padding: 3rem;
+    height:99%;
     background-image: url(/assets/images/elon1.png);
     background-size: cover;
     padding: 0.1rem;
 }
 .text{
     flex: 3;
-    padding: 3rem;
+    padding: 1rem;
+    flex-direction: column;
 }
 
 .text p{
-    color: black;
-    font-size: 3rem;
+    color:var(--text-color);
+    font-size: 2rem ;
+}
+ p{
+    padding: 2rem 3rem;
+}
+footer{
+    height: 20%;
 }
