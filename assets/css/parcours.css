@@ -52,11 +52,12 @@ nav{
     padding: 0rem 2rem;
 }
 .liens>a:hover{
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     background-color: var(--primary-color);
     transition: all 2sec ease;
-    border: 0.2rem solid;
-    border-radius: 2rem;
+    border: 0.01rem solid;
+    border-radius: 1rem;
+    font-family: poppins;
 }
 .section1{
     display: flex;
