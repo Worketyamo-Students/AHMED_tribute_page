@@ -52,7 +52,7 @@ body {
 
 .nav_bar .navlinks {
     height: 100%;
-    width: 40rem;
+    width: 50rem;
 }
 
 .nav_bar .navlinks ul {
@@ -74,6 +74,13 @@ body {
     font-size: 1.9rem;
     font-family: var(--font-poppins);
     color: var(--secondary-color);
+    transition: all 1s ease;
+}
+
+.nav_bar ul a:hover {
+    padding: 0.8rem 3rem;
+    background: var(--primary-color);
+    border-radius: .5rem;
 }
 
 .nav_bar .logo .two {
@@ -134,9 +141,15 @@ body {
         height: 100vh;
         backdrop-filter: blur(4px);
         background: #0f10357c;
-        margin-right: 50%;
+        margin-right: 100%;
         padding-top: 2rem;
         transition: all 1s ease;
+    }
+
+    .nav_bar .navlinks .active {
+        padding: 0.8rem 3rem;
+        background: var(--primary-color);
+        border-radius: .5rem;
     }
 
     .nav_bar .navlinks ul { 
@@ -148,7 +161,7 @@ body {
     }
 
     .navlinks.mobile-menu {
-        margin-right: 40%;
+        margin-right: 50%;
     }
 }
 
@@ -202,6 +215,11 @@ body {
 @media only screen and (max-width: 900px) {
     .contain {
         flex-direction: column;
+        padding: 0;
+    }
+
+    .contain_img img {
+        width: 70%;
     }
 }
 
