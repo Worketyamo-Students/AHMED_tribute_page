@@ -210,17 +210,45 @@ body {
     background: var(--primary-color);
     color: var(--color-four);
     font-weight: 700;
+    transition: all 1s ease;
+    box-shadow: .2rem .2rem .5rem var(--color-four);
+}
+
+.contain_text button:hover {
+    transform: scale(1.2);
+    background: var(--color-four);
+    color: var(--primary-color);
 }
 
 @media only screen and (max-width: 900px) {
+    .nav_bar {
+        padding: 0 2rem;
+    }
     .contain {
         flex-direction: column;
         padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .contain_img {
+        width: 100%;
     }
 
     .contain_img img {
-        width: 70%;
+        width: 45%;
+
     }
+
+    .contain_text {
+        padding: 3rem 2rem 0 2rem;
+        width: 100%;
+    }
+
+    .contain_text button {
+        margin-top: 4rem;
+    }
+
 }
 
 
