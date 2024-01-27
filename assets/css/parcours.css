@@ -1,0 +1,161 @@
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Jacques+Francois+Shadow&family=Poppins&display=swap');
+ :root{
+    --primary-color : #A1A1A1;
+    --secondary-color: #0F1035;
+    --text-color:#365486;
+    --link-color:#7FC7D9;
+}
+*{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-size: 10px;
+    background-color: var(--primary-color);
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    height: 9%;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+.elon{
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: Jacques Francois Shadow;
+}
+.liens{
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.liens>a{
+    color : var(--link-color);
+    text-decoration: none;
+    padding: 0rem 2rem;
+}
+.liens>a:hover{
+    padding: 1rem 1rem;
+    background-color: var(--primary-color);
+    transition: all 2sec ease;
+    border: 0.01rem solid;
+    border-radius: 1rem;
+    font-family: poppins;
+}
+.section1{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    /* background-color:red; */
+}
+.image{
+    flex: 1;
+    height:99%;
+    /* width: 100vw; */
+    background-image: url(/assets/images/elon1.png);
+    background-size: cover;
+    padding: 0.1rem;
+}
+.text{
+    flex: 3;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.text p{
+    color:var(--text-color);
+    font-size: 2rem ;
+    font-family: Poppins;
+}
+ p{
+    padding: 2rem 3rem;
+}
+.footer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+.footer p{
+    align-items: center;
+    justify-content: center;
+    font-family: poppins;
+}
+@media screen and (max-width:800px){
+    *{
+        padding: 0;
+        margin: 0;
+        /* overflow-y: hidden;
+        overflow-x: hidden; */
+        height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        /* overflow-y: hidden;
+        overflow-x: hidden; */
+        height: 100vh;
+        width: 100vw;
+        color: white;
+        font-size: 10px;
+        background-color: var(--primary-color);
+        box-sizing: border-box;
+    
+}
+nav{
+    display: flex;
+    height: 9%;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+.elon{
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: Jacques Francois Shadow;
+}
+.liens a{
+ visibility: hidden;
+}
+.liens{
+    background-image: url(/assets/images/icon.png);
+    width: 2%;
+    padding: rem;
+}
+.section1{
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+}
+.image{
+    flex: 1;
+    height: 30%;
+    width: 20%;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    flex: 1;
+    font-size: 1.0rem;
+    height: 50%;
+}
+}
