@@ -67,7 +67,8 @@ nav{
 }
 .image{
     flex: 1;
-    height:99%;
+    height:100vh;
+    width: 100vw;
     background-image: url(/assets/images/elon1.png);
     background-size: cover;
     padding: 0.1rem;
@@ -101,8 +102,8 @@ nav{
     *{
         padding: 0;
         margin: 0;
-        overflow-y: hidden;
-        overflow-x: hidden;
+        /* overflow-y: hidden;
+        overflow-x: hidden; */
         height: 100vh;
         width: 100vw;
         box-sizing: border-box;
@@ -110,8 +111,8 @@ nav{
     body{
         padding: 0;
         margin: 0;
-        overflow-y: hidden;
-        overflow-x: hidden;
+        /* overflow-y: hidden;
+        overflow-x: hidden; */
         height: 100vh;
         width: 100vw;
         color: white;
@@ -128,7 +129,7 @@ nav{
 }
 .elon{
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: Jacques Francois Shadow;
 }
 .liens a{
@@ -150,5 +151,7 @@ nav{
 }
 .text{
     flex: 1;
+    font-size: 1rem;
+    height: 100vh;
 }
 }
